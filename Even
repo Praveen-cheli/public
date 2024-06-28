@@ -1,0 +1,16 @@
+public class Even {
+
+	public static void main(String[] args) {
+		int n=246842,sum=0,rev;
+		while(n!=0) {
+			rev=n%10;
+			n=n/10;
+			if(rev%2==0) {
+				sum=sum*10+rev;
+			}
+		}
+		System.out.println(sum);
+	}
+
+}
+
