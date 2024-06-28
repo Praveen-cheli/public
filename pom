@@ -35,7 +35,9 @@
 <version>1.2.5</version>
 
 </dependency>
-
+<dependency>
+mvn -f path/to/pom.xml <goals> ...
+</dependency>
 <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
 
 
